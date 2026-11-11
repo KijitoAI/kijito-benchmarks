@@ -1,0 +1,312 @@
+{
+ "overall_pooled": 0.4899,
+ "correct": 365,
+ "scored": 745,
+ "n": 745,
+ "unclear": 0,
+ "overall_summarizer_rule": 0.4899,
+ "macro_over_types": 0.4924,
+ "by_type": {
+  "multi_hop": {
+   "accuracy": 0.467,
+   "correct": 85,
+   "scored": 182,
+   "n": 182,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.467
+  },
+  "knowledge_update": {
+   "accuracy": 0.3645,
+   "correct": 39,
+   "scored": 107,
+   "n": 107,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.3645
+  },
+  "temporal": {
+   "accuracy": 0.4074,
+   "correct": 66,
+   "scored": 162,
+   "n": 162,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.4074
+  },
+  "user_implicit": {
+   "accuracy": 0.6122,
+   "correct": 30,
+   "scored": 49,
+   "n": 49,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.6122
+  },
+  "term_ambiguity": {
+   "accuracy": 0.2547,
+   "correct": 27,
+   "scored": 106,
+   "n": 106,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.2547
+  },
+  "abstention": {
+   "accuracy": 0.8489,
+   "correct": 118,
+   "scored": 139,
+   "n": 139,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.8489
+  }
+ },
+ "by_domain": {
+  "Finance": {
+   "accuracy": 0.5047,
+   "correct": 108,
+   "scored": 214,
+   "n": 214,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.5047,
+   "by_type": {
+    "abstention": {
+     "accuracy": 0.7241,
+     "correct": 21,
+     "scored": 29,
+     "n": 29,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.7241
+    },
+    "knowledge_update": {
+     "accuracy": 0.4375,
+     "correct": 14,
+     "scored": 32,
+     "n": 32,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.4375
+    },
+    "multi_hop": {
+     "accuracy": 0.6042,
+     "correct": 29,
+     "scored": 48,
+     "n": 48,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.6042
+    },
+    "temporal": {
+     "accuracy": 0.4667,
+     "correct": 21,
+     "scored": 45,
+     "n": 45,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.4667
+    },
+    "term_ambiguity": {
+     "accuracy": 0.2889,
+     "correct": 13,
+     "scored": 45,
+     "n": 45,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2889
+    },
+    "user_implicit": {
+     "accuracy": 0.6667,
+     "correct": 10,
+     "scored": 15,
+     "n": 15,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.6667
+    }
+   }
+  },
+  "Technology": {
+   "accuracy": 0.507,
+   "correct": 108,
+   "scored": 213,
+   "n": 213,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.507,
+   "by_type": {
+    "abstention": {
+     "accuracy": 0.9286,
+     "correct": 26,
+     "scored": 28,
+     "n": 28,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.9286
+    },
+    "knowledge_update": {
+     "accuracy": 0.5,
+     "correct": 18,
+     "scored": 36,
+     "n": 36,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.5
+    },
+    "multi_hop": {
+     "accuracy": 0.5122,
+     "correct": 21,
+     "scored": 41,
+     "n": 41,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.5122
+    },
+    "temporal": {
+     "accuracy": 0.4324,
+     "correct": 16,
+     "scored": 37,
+     "n": 37,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.4324
+    },
+    "term_ambiguity": {
+     "accuracy": 0.2558,
+     "correct": 11,
+     "scored": 43,
+     "n": 43,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2558
+    },
+    "user_implicit": {
+     "accuracy": 0.5714,
+     "correct": 16,
+     "scored": 28,
+     "n": 28,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.5714
+    }
+   }
+  },
+  "Healthcare": {
+   "accuracy": 0.4,
+   "correct": 58,
+   "scored": 145,
+   "n": 145,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.4,
+   "by_type": {
+    "abstention": {
+     "accuracy": 0.8824,
+     "correct": 30,
+     "scored": 34,
+     "n": 34,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.8824
+    },
+    "knowledge_update": {
+     "accuracy": 0.1176,
+     "correct": 2,
+     "scored": 17,
+     "n": 17,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.1176
+    },
+    "multi_hop": {
+     "accuracy": 0.2708,
+     "correct": 13,
+     "scored": 48,
+     "n": 48,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2708
+    },
+    "temporal": {
+     "accuracy": 0.2973,
+     "correct": 11,
+     "scored": 37,
+     "n": 37,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2973
+    },
+    "term_ambiguity": {
+     "accuracy": 0.0,
+     "correct": 0,
+     "scored": 7,
+     "n": 7,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.0
+    },
+    "user_implicit": {
+     "accuracy": 1.0,
+     "correct": 2,
+     "scored": 2,
+     "n": 2,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 1.0
+    }
+   }
+  },
+  "Manufacturing": {
+   "accuracy": 0.526,
+   "correct": 91,
+   "scored": 173,
+   "n": 173,
+   "unclear": 0,
+   "summarizer_rule_accuracy": 0.526,
+   "by_type": {
+    "abstention": {
+     "accuracy": 0.8542,
+     "correct": 41,
+     "scored": 48,
+     "n": 48,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.8542
+    },
+    "knowledge_update": {
+     "accuracy": 0.2273,
+     "correct": 5,
+     "scored": 22,
+     "n": 22,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2273
+    },
+    "multi_hop": {
+     "accuracy": 0.4889,
+     "correct": 22,
+     "scored": 45,
+     "n": 45,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.4889
+    },
+    "temporal": {
+     "accuracy": 0.4186,
+     "correct": 18,
+     "scored": 43,
+     "n": 43,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.4186
+    },
+    "term_ambiguity": {
+     "accuracy": 0.2727,
+     "correct": 3,
+     "scored": 11,
+     "n": 11,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.2727
+    },
+    "user_implicit": {
+     "accuracy": 0.5,
+     "correct": 2,
+     "scored": 4,
+     "n": 4,
+     "unclear": 0,
+     "summarizer_rule_accuracy": 0.5
+    }
+   }
+  }
+ },
+ "paper_pool_estimate": {
+  "average_715": 0.4741,
+  "abstention_109": 0.8436,
+  "note": "ESTIMATE: the repo ships 34/48 Healthcare/Manufacturing abstention questions where the paper pooled 19/33 and the filtered ids are unpublished; HC/Mfg abstention accuracy is applied to the paper's counts. Every other cell is exactly the paper's question set."
+ },
+ "reader": "openai/gpt-5 (GroupMemBench protocol reader)",
+ "judge": "openai/gpt-5 (GroupMemBench protocol judge)",
+ "errors": [],
+ "rerun_after_an_error": [],
+ "benchmark": "GroupMemBench (UCSB + Microsoft), all 745 questions across the Finance, Technology, Healthcare and Manufacturing domains",
+ "k": 10,
+ "recall_reply": "default kijito_recall reply text, shown to the reader verbatim",
+ "keyword_search": "off (the default)",
+ "server": "Kijito production build 3980896f (live on kijito.ai from 2026-10-30), run on our own machine and driven only through its MCP endpoint",
+ "run_date_utc": "2026-10-30 to 2026-11-02",
+ "service_settings": "update hints turned off on the bench service. The hint only adds text to write replies; GroupMemBench ingests raw messages and nothing acts on hints, so retrieval is unaffected.",
+ "parity": "The same 745 questions run in-process (no API) retrieved byte-identical top-10 lists for every question.",
+ "note": "GPT-5 scoring for part of the Finance and Technology domains failed during a network outage on 2026-10-31 and was re-run on 2026-11-02 from the saved retrieval contexts; no memory was re-ingested and no context changed.",
+ "question_count_note": "The paper's Table 2 reports 715 questions; this release of the dataset has 745."
+}

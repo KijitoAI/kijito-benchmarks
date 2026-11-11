@@ -1,0 +1,32 @@
+{
+ "n": 350,
+ "correct": 292,
+ "accuracy": 0.8343,
+ "task_average": 0.8281,
+ "abstention": "14/19",
+ "by_type": {
+  "knowledge-update": "51/55",
+  "multi-session": "67/93",
+  "single-session-assistant": "39/39",
+  "single-session-preference": "11/21",
+  "single-session-user": "48/49",
+  "temporal-reasoning": "76/93"
+ },
+ "errors": 0,
+ "questions_asked_more_than_once": [
+  "852ce960"
+ ],
+ "reader": "openai/gpt-4o-2024-08-06 (official LongMemEval reader)",
+ "judge": "openai/gpt-4o-2024-08-06 (official LongMemEval judge prompt per type)",
+ "benchmark": "LongMemEval-S (cleaned), held-out split",
+ "split_file": "splits/lme-s-holdout.qids",
+ "dataset": "xiaowu0162/longmemeval-cleaned longmemeval_s_cleaned.json, revision 98d7416c, sha256 d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+ "k": 50,
+ "recall_reply": "default kijito_recall reply text, shown to the reader verbatim",
+ "keyword_search": "off (the default)",
+ "server": "Kijito production build 7fc1fe40 (live on kijito.ai from 2026-10-28), run on our own machine and driven only through its MCP endpoint",
+ "run_date_utc": "2026-10-28",
+ "split_use": "the held-out split was scored once; no tuning looked at it",
+ "cost_usd_reader_and_judge": 12.23,
+ "note": "Question 852ce960 failed once at ingest (one 76,750-byte turn exceeded the 64 KB per-memory limit); after the harness split oversized turns it was re-run with a fresh project, before any answer had been produced."
+}

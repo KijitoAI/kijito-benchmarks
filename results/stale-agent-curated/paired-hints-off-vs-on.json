@@ -1,0 +1,54 @@
+{
+ "comparison": "STALE agent-curated arm, update hints ignored (hints-off) vs acted on (hints-on); same 400 scenarios, same ingest summaries, same reader and judge",
+ "queries": 1200,
+ "hints_off_correct": 170,
+ "hints_on_correct": 212,
+ "correct_only_with_hints_off": 26,
+ "correct_only_with_hints_on": 68,
+ "exact_mcnemar_p_two_sided": 1.73e-05,
+ "note": "Paired per query (3 probe queries per scenario); queries within a scenario are not independent, so read the p-value as indicative.",
+ "by_setting": {
+  "T1/IPA": {
+   "hints_off_correct": 47,
+   "hints_on_correct": 54,
+   "off_only": 7,
+   "on_only": 14,
+   "queries": 200
+  },
+  "T1/PR": {
+   "hints_off_correct": 1,
+   "hints_on_correct": 9,
+   "off_only": 0,
+   "on_only": 8,
+   "queries": 200
+  },
+  "T1/SR": {
+   "hints_off_correct": 81,
+   "hints_on_correct": 103,
+   "off_only": 11,
+   "on_only": 33,
+   "queries": 200
+  },
+  "T2/IPA": {
+   "hints_off_correct": 16,
+   "hints_on_correct": 16,
+   "off_only": 3,
+   "on_only": 3,
+   "queries": 200
+  },
+  "T2/PR": {
+   "hints_off_correct": 0,
+   "hints_on_correct": 1,
+   "off_only": 0,
+   "on_only": 1,
+   "queries": 200
+  },
+  "T2/SR": {
+   "hints_off_correct": 25,
+   "hints_on_correct": 29,
+   "off_only": 5,
+   "on_only": 9,
+   "queries": 200
+  }
+ }
+}

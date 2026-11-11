@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kijito-benchmarks"
+version = "0.1.0"
+description = "Harness for running LongMemEval, STALE and GroupMemBench against Kijito through its public MCP endpoint"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "huggingface_hub>=0.23",
+    "tiktoken>=0.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["kijito_bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
